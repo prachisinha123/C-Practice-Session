@@ -1,0 +1,24 @@
+<div class="form-group row">
+                            <label class="col-md-3 col-from-label">Product Weight <span class="text-danger"></span></label>
+                            <div class="col-md-8">
+                                <input type="text" placeholder="Enter Weight" name="product_weight" class="form-control" required/>
+                            </div>
+                        </div> 
+                        <div class="form-group row">
+                            <label class="col-md-3 col-from-label">Product Length <span class="text-danger"></span></label>
+                            <div class="col-md-8">
+                                <input type="text" placeholder="Enter Length" name="product_length" class="form-control" required/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 col-from-label">Product Breadth <span class="text-danger"></span></label>
+                            <div class="col-md-8">
+                                <input type="text" placeholder="Enter Breadth" name="product_breadth" class="form-control" required/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 col-from-label">Product Height <span class="text-danger"></span></label>
+                            <div class="col-md-8">
+                                <input type="text" placeholder="Enter Height" name="product_height" class="form-control" required/>
+                            </div>
+                        </div>

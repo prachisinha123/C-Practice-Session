@@ -1,0 +1,1 @@
+ patternString(s);

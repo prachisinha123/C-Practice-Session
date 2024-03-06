@@ -1,0 +1,58 @@
+/*your custom css goes here*/
+.carousel-box {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  border-radius: 0.5rem;
+  
+  /* border-left: 0 solid #00ff99; */
+  border-left: 0 solid #e93535;
+  
+   transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out; 
+  
+}
+
+.carousel-box:hover {
+  padding-left: 0.3rem;
+  border-left: 0.3rem solid #e93535;
+ 
+}
+
+
+
+$dimensions['product_weight']=$request->product_weight;
+$dimensions['product_length']=$request->product_length;
+$dimensions['product_breadth']=$request->product_breadth;
+$dimensions['product_height']=$request->product_height;
+$product->dimensions=json_encode($dimensions);
+$product->save();
+
+
+/* 293  in backend*/
+<div class="form-group row">
+                            <label class="col-md-3 col-from-label">Product Weight <span class="text-danger"></span></label>
+                            <div class="col-md-8">
+                                <input type="text" placeholder="Enter Weight" name="product_weight" class="form-control" required/>
+                            </div>
+                        </div> 
+                        <div class="form-group row">
+                            <label class="col-md-3 col-from-label">Product Length <span class="text-danger"></span></label>
+                            <div class="col-md-8">
+                                <input type="text" placeholder="Enter Length" name="product_length" class="form-control" required/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 col-from-label">Product Breadth <span class="text-danger"></span></label>
+                            <div class="col-md-8">
+                                <input type="text" placeholder="Enter Breadth" name="product_breadth" class="form-control" required/>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-3 col-from-label">Product Height <span class="text-danger"></span></label>
+                            <div class="col-md-8">
+                                <input type="text" placeholder="Enter Height" name="product_height" class="form-control" required/>
+                            </div>
+                        </div>
+/* 305,frontend */
